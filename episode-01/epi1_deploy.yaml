@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: episode-one-pod
+spec:
+  containers:
+    - name: frontend-container
+      image: frontend_image1
+      ports:
+        - containerPort: 80
+    - name: backend-container
+      image: backend_image1
+      ports:
+        - containerPort: 8080
+    - name: mongodb-container
+      image: mongo
+      ports:
+        - containerPort: 27017
