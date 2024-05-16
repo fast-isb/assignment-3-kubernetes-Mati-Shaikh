@@ -12,7 +12,3 @@ spec:
       image: backend_image1
       ports:
         - containerPort: 8080
-    - name: mongodb-container
-      image: mongo
-      ports:
-        - containerPort: 27017
