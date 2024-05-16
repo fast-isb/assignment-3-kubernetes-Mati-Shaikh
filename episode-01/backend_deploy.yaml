@@ -16,7 +16,7 @@ spec:
       - name: backend
         image: matishaikh77/backend_image1:latest
         ports:
-        - containerPort: 8000
+        - containerPort: 5000
       volumes:
         - name: database-volume-01
           persistentVolumeClaim:
@@ -31,5 +31,5 @@ spec:
     app: backend-episode-01
   ports:
     - protocol: TCP
-      port: 8000
-      targetPort: 8000
+      port: 5000
+      targetPort: 5000
