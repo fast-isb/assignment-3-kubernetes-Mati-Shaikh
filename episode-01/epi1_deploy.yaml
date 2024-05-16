@@ -5,10 +5,10 @@ metadata:
 spec:
   containers:
     - name: frontend-container
-      image: frontend_image1
-      ports:
-        - containerPort: 80
-    - name: backend-container
-      image: backend_image1
+      image: frontend_image1:tag
       ports:
         - containerPort: 8080
+    - name: backend-container
+      image: backend_image1:tag
+      ports:
+        - containerPort: 3000
