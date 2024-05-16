@@ -8,7 +8,9 @@ spec:
       image: frontend_image1:tag
       ports:
         - containerPort: 8080
+      imagePullPolicy: Never
     - name: backend-container
       image: backend_image1:tag
       ports:
         - containerPort: 3000
+      imagePullPolicy: Never
