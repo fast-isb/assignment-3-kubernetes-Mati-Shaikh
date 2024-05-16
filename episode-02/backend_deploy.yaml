@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: afnannaseem837/mern-episode-02-backend:latest
+        image: matishaikh77/backend_image1:latest
         ports:
         - containerPort: 5000
       volumes:
