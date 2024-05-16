@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: afnannaseem837/mern-episode-02-frontend:latest
+        image: matishaikh77/frontend_image1:latestlatest
         ports:
         - containerPort: 80
 ---
